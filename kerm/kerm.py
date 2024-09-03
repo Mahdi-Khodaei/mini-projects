@@ -22,14 +22,14 @@ root = tk.Tk()
 root.title("my game")
 
 
-header_label = tk.Label(root, text="قبول داری پرسپولیس بهترین تیم ایرانه؟", font=("B Zar", 22))
+header_label = tk.Label(root, text="قبول داری من یه پارچه آقام؟", font=("B Zar", 22))
 header_label.pack()
 
 
 #ok_button = tk.Button(root, text="معلومه", bg="green", fg= "#fff")
 #ok_button.pack()
 
-cancel_button = tk.Button(root, text="نه چون یه کیسه کش بدبختم", bg="red", fg= "#fff")
+cancel_button = tk.Button(root, text="معلومه که نه.دیوونم مگه؟", bg="red", fg= "#fff")
 cancel_button.pack()
 
 cancel_button.bind("<Enter>", lambda e : move_cancel_button())
